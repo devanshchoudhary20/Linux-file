@@ -1,0 +1,65 @@
+.calendar-container{
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    /* position: relative; */
+    font-family: "Inter var", sans-serif;
+
+    .top-container{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #e5e7eb;
+        padding : 10px;
+        align-items: center;
+    }
+    .datepicker{
+        display: flex;
+        width: 50%;
+        margin: auto;
+        justify-content: center;
+    }
+    .month-picker, .year-picker{
+        padding: 5px;
+        font-weight: 600;
+        color: #4b5563;
+    }
+}
+
+.previous-icon,.next-icon {
+    width: 25px;
+    height: auto;
+}
+.bottom-container{
+    width: 100%;
+    border-collapse: collapse;
+
+    .dayofweek{
+        padding: 7px;
+    }
+
+    .calendar-value{
+        width: 100%;
+    }
+    .table-body td{
+        padding: 7px;
+        width: 35px;
+        height: 35px;
+            &:hover{
+                border-radius: 50%;
+                color: #0e7490;
+                background: #ecfeff;
+            }
+    }
+    .prev-month,.same-month,.next-month{
+        cursor: pointer;
+        margin: 0 auto;
+        overflow: hidden;
+        color: #4b5563;
+    }
+    .prev-month,.next-month{
+        color: #ccc;
+    }
+
+}

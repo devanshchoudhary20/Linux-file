@@ -1,0 +1,87 @@
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    margin: auto;
+  }
+  
+  .viewed {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .viewed-image {
+    max-width: 100%;
+    min-height: 600px;
+    max-height: 600px;
+    object-fit: contain;
+    background-color: black;
+  }
+  
+  .thumbnail-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  .previous,
+  .next {
+    cursor: pointer;
+    padding: 20px;
+  }
+  
+  .image-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 80%;
+    padding: 10px;
+  }
+  
+  .image-container {
+    flex: 0 0 auto;
+    margin: 0 10px;
+    &:hover{
+        transform: scale(1.1);
+    }
+  }
+  
+  .image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+       
+  }
+  
+  .previous-icon,
+  .next-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  @media screen and (max-width : 500px) {
+    .gallery-container {
+        width: 90%;
+      }
+      .viewed-image {
+        min-height: 300px;
+        max-height: 300px;
+      }
+  }
+
+  @media screen and (max-width : 1024px)  and (min-width : 500px){
+    .gallery-container {
+        width: 80%;
+      }
+  }

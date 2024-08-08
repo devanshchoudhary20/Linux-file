@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        input, button {
+            margin: 5px 0;
+            padding: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Todo App</h1>
+    <input type="text" id="todoInput" placeholder="Enter a new todo">
+    <button onclick="addTodo()">Add Todo</button>
+    <ul id="todoList"></ul>
+
+    <script>
+        const fetchTodo = async () => {
+            try{
+                const response = await fetch('http://localhost:3000/todos');
+                const todos = await response.json();
+                const todoList = document.getElementById('todoList');
+                todoList.innerHTML = '';
+                todos.forEach(todo => {
+                    const li = document.createElement('li')
+                    li.innerHTML = `
+                    ${todo.title}
+                    <div>
+                        <button onclick = "updateTodo(${todo.id})">Edit</button>
+                        <button onclick = "deleteTodo(${todo.id})">Delete</button>
+                    </div>                
+                    `
+                    todoList.appendChild(li);
+                })
+            }
+            catch(error){
+                console.log(error);
+            }
+        }
+
+
+        const addTodo = async () => {
+            const todoInput = document.getElementById('todoInput');
+            const todo = todoInput.value.trim();
+            if(todo){
+            try{
+                const response = await fetch('http://localhost:3000/todos',
+                {
+                    method : 'POST',
+                    headers : {'Content-Type' : 'application/json'},
+                    body : JSON.stringify({title : todo}) 
+                });
+                const result  = await response.json();
+                todoInput.value = ''
+                fetchTodo();
+            }
+            
+            catch(error){
+                console.log(error);
+            }
+            }
+        }
+
+
+        const updateTodo = async (id) => {
+            const newTitle = prompt("New Todo title :");
+            if(newTitle){
+            try{   
+                    const response = await fetch(`http://localhost:3000/todos/${id}`,{
+                        method : 'PUT',
+                        headers : {'Content-Type' : 'application/json'},
+                        body : JSON.stringify({title : newTitle})
+                    });
+                    const result = await fetchTodo();
+                } 
+            catch(error){
+                console.log(error);
+            }
+            }
+        };
+
+        const deleteTodo = async (id) => {
+            try{
+                const response  = await fetch(`http://localhost:3000/todos/${id}`,{
+                    method : 'DELETE'
+                });
+                const result = await fetchTodo();
+            }
+            catch(error){
+                console.log(error);
+            }
+        }
+        fetchTodo()
+    </script>
+</body>
+</html>

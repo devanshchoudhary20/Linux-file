@@ -1,0 +1,12 @@
+.ascending,.descending{
+   margin: 2px;
+   border-radius: 20px;
+   border: 1px solid;
+   font-weight: bold;
+    
+
+        &:hover{
+                cursor: pointer;
+            }
+   
+}

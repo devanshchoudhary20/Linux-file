@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+    
+}
+.quote{
+    font-size: medium;
+    font-style: italic;
+    font-weight: normal;
+}
+.greeting-icon{
+    width: 30px !important;
+    height: 30px !important; 
+}
+.icon{
+    width : 40px;
+    height: 40px;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.user-button{
+    border-radius: 100%;
+    border: 1px solid yellow;
+}
+.user-profile{
+    padding : 10px 40px 0px 
+}
+@media only screen and (min-width : 820px) {
+    
+    .header{
+        display: flex;
+        justify-content: space-between;
+        font-size: 24px;
+        font-weight: bold;
+        margin: 8px 16vw;
+        
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "watch": ["pages", "components", "lib", "styles"],
+    "ext": "js,jsx,ts,tsx",
+    "ignore": ["node_modules"],
+    "exec": "next dev"
+  }
+  

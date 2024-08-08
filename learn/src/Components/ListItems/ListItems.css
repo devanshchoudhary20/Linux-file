@@ -1,0 +1,21 @@
+.todo{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    margin: 20px;
+
+    .title,.text{
+        border: none;
+        &:focus{
+            outline: none;
+        }
+    }
+
+    input[type=checkbox]{
+        border: 2px solid red;
+     }
+    
+     input[type=text]{
+        overflow: none;
+     }
+}

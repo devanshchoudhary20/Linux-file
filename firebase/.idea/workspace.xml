@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c21b9a4f-0d36-4804-8457-09795de7e1c7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/Firebase/FirebaseConfig.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/login/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/login/tst.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homedo/src/app/Components/Login/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homedo/src/app/Components/Login/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homedo/src/app/Components/Login/Signup.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homedo/src/fireabase/Utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homedo/src/fireabase/actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/todo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clock/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../clock/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clock/src/Clock.css" beforeDir="false" afterPath="$PROJECT_DIR$/../clock/src/Clock.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clock/src/Clock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../clock/src/Clock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crawler/Client/src/Components/Search/Search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../crawler/Client/src/Components/Search/Search.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crawler/Server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../crawler/Server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homedo/src/app/Context/GlobalContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../homedo/src/app/Context/GlobalContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homedo/src/app/FirebaseConfig.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homedo/src/app/State/InitialState.js" beforeDir="false" afterPath="$PROJECT_DIR$/../homedo/src/app/State/InitialState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homedo/src/app/Utils/Utils.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../homedo/src/app/Utils/Utils.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homedo/src/app/home/completedTask/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../homedo/src/app/home/completedTask/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homedo/src/app/home/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../homedo/src/app/home/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homedo/src/app/home/tasks/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../homedo/src/app/home/tasks/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homedo/src/app/login/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../homedo/src/app/login/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homedo/src/app/login/reminder/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../homedo/src/app/login/reminder/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homedo/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../homedo/src/app/page.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2jxYpuA27eldKD2ariuX2xbhU9j" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "login__setup",
+    "last_opened_file_path": "/home/devansh/Desktop/honey/Projects/swiggyInstamart",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "ts.external.directory.path": "/home/devansh/Desktop/honey/Projects/firebase/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c21b9a4f-0d36-4804-8457-09795de7e1c7" name="Changes" comment="" />
+      <created>1722330381113</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722330381113</updated>
+      <workItem from="1722330382344" duration="156000" />
+      <workItem from="1722330542065" duration="10232000" />
+      <workItem from="1722438872607" duration="4388000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
